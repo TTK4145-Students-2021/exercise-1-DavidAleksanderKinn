@@ -9,11 +9,11 @@ Exercise 1 - Theory questions
  
  ### Why do we divide software (programs) into concurrently executing parts (like threads or processes)?
  (Or phrased differently: What problems do concurrency help in solving?)
- > *Your answer here*
+ > *If you want the CPU to execute tasks with a starting and finishing time that overlaps, a concurrent program will change the tasks more rapidly. This will make bouth task able to react to input and prosess output at a more steady rate.*
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
- > *If you want the CPU to execute tasks with a starting and finishing time that overlaps, a concurrent program will change the tasks more rapidly. This will make bouth task able to react to input and prosess output at a more steady rate. One downside with such programs is that it is more difficult to prevent bugs, esspesualy if two threads writes and read on the same location in memory*
+ > * One downside with concurrent programs is that it is more difficult to prevent bugs, esspesualy if two threads writes and read on the same location in memory*
  
  ### What is the conceptual difference between threads and processes?
  > *What is executing the program is one or more treads. The program itself pluss all the threads in it is called a prosess. *
